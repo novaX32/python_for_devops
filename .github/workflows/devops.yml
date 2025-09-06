@@ -20,14 +20,14 @@ jobs:
           make install
           python -m textblob.download_corpora
 
-      # - name: Lint with flake8
-      #   # run: make lint
+      - name: Lint with flake8
+        run: make lint
 
-      # - name: Test with pytest
-      #   # run: make test
+      - name: Test with pytest
+        run: make test
 
-      # - name: Format code with Black
-      #   # run: make format
+      - name: Format code with Black
+        run: make format
 
-      # - name: Build Docker container
-      #   run: make build
+      - name: Build Docker container
+        run: make build
